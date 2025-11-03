@@ -1,13 +1,18 @@
 {
   "dependencies": {
+    "@types/swagger-jsdoc": "^6.0.4",
     "auth": "^1.2.3",
     "bcrypt": "^6.0.0",
     "bearer": "^0.0.20",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "firebase": "^12.5.0",
+    "firebase-admin": "^13.5.0",
     "jest": "^30.2.0",
     "jsonwebtoken": "^9.0.2",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7",
+    "swagger-jsdoc": "^6.2.8",
     "token": "^0.1.0",
     "winston": "^3.18.3"
   },
@@ -23,16 +28,15 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  
   "devDependencies": {
     "@types/bcrypt": "^6.0.0",
     "@types/express": "^5.0.5",
     "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^24.9.2",
+    "@types/winston": "^2.4.4",
     "nodemon": "^3.1.10",
     "ts-node": "^10.9.2",
-    "typescript": "^5.9.3",
-    "type": "File"
+    "typescript": "^5.9.3"
   },
   "repository": {
     "type": "git",

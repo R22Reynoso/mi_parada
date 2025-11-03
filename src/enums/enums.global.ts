@@ -1,3 +1,5 @@
+
+
 export enum TransportType {
     PUBLIC= 0,
     PRIVATE= 1,   
@@ -9,9 +11,8 @@ export enum TransportStatus {
 }
 
 export enum UserRole {
-    VIP= 0,
-    DRIVER= 1,
-    PASSENGER= 2,   
+    DRIVER= 0,
+    PASSENGER= 1,   
 }
 
 export enum SyndicateType {
