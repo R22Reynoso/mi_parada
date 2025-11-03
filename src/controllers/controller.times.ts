@@ -11,3 +11,4 @@ export const createTimes = (req: Request, res: Response) => {
   (db.times as Date[]).push(newTimes);
   res.status(201).json(newTimes);
 };
+
